@@ -1,0 +1,80 @@
+
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kumar One Outline', cursive;
+    font-size: 70px;
+    color: #1A5276;
+    margin: 0.2em;
+    position: relative;
+    animation-name: header;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes header {
+  0%   {color:#7FB3D5; left:0px; top:0px;}
+  25%  {color:#3498DB; left:10px; top:0px;}
+  50%  {color:#2874A6; left:10px; top:10px;}
+  75%  {color:#1F618D; left:0px; top:10px;}
+  100% {color:#7FB3D5; left:0px; top:0px;}
+}
+
+#header1 {
+    background-color: #D4E6F1;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: #154360;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+#submit {
+  background-color: #1A5276;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #1A5276;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Table */
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border: 3px solid #1A5276;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
